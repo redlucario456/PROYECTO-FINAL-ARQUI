@@ -2,14 +2,11 @@
   "name": "arquiboss-arquitectura",
   "version": "1.0.0",
   "description": "Sistema de Gestión de Proyectos y Consultas Técnicas",
-  "main": "server.js",
+  "main": "app.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node server.js",
-    "server": "node server.js",
-    "dev": "nodemon server.js",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "node app.js",
+    "dev": "node app.js"
   },
   "keywords": [
     "arquitectura",
@@ -20,6 +17,7 @@
   "author": "Guillermo - ArquiBOSS",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.6.0",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
