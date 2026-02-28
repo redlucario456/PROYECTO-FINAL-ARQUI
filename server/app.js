@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/uploads', express.static(uploadsPath));
 
 // Ruta del Frontend (Asegúrate de que tu build esté en la carpeta 'public')
-const frontendPath = path.join(__dirname, 'client');
+const frontendPath = path.join(__dirname, 'public');
 app.use(express.static(frontendPath));
 
 // --- 3. RUTAS DE LA API ---
