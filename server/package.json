@@ -6,7 +6,8 @@
   "type": "commonjs",
   "scripts": {
     "start": "node app.js",
-    "dev": "node app.js"
+    "dev": "nodemon app.js",
+    "build": "echo 'Preparando ArquiBOSS...'"
   },
   "keywords": [
     "arquitectura",
